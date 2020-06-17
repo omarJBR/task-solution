@@ -1,0 +1,109 @@
+/* body */
+body{
+  background-color:#f5f8fa;
+}
+.loading-data{
+  font-size: 2em;
+  color: #007bff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* navbar */
+.bg-light {
+  background-color: #1e60a2b5!important;
+}
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-brand {
+  color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-brand:hover{
+  color: #181713 !important;
+}
+
+/* home */
+.home{
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.users-posts,.users-albums{
+  background: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  width: 200px;
+  border-radius: 50px;
+  padding: 5px;
+}
+.users-posts:hover,.users-albums:hover{
+  background-color: #007bff;
+  opacity: 0.8;
+  color: white;
+}
+
+/* users */
+.users-row{
+  margin-right: 0; 
+  margin-left: 0;
+}
+.users-info{
+  margin-top: 20px;
+}
+.user-info{
+  position: relative;
+  color: #007bff;
+  margin-bottom: 100px;
+}
+.user-name{
+  font-size: 1.2em;
+}
+.user-username{
+  font-size: 0.8em;
+  margin-left: 32px;
+}
+.contact-information{
+  margin-left: 32px;
+}
+.posts-btn,.albums-btn{
+  background: none;
+  color: #007bff;
+  border: 1px solid #007bff;
+  width: 200px;
+  margin-left: 13px;
+  margin-top: 20px;
+  border-radius: 0 10px;
+}
+.posts-btn:hover,.albums-btn:hover{
+  background-color: #007bff;
+  opacity: 0.8;
+  color: white;
+}
+
+/* posts , albums */
+.user-posts,.user-albums{
+  color: #007bff;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.post,.album{
+  margin-bottom: 30px;
+}
+.post-title,.album-title{
+  font-size: 1.4em;
+}
+
+.album-info,.Photos{
+  margin-left: 30px;
+}
+
+/* comments , photos */
+.post-comments,.album-photos{
+  color: #007bff;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.post-info,.comments{
+  margin-left: 30px;
+}
+.comment{
+  margin-bottom: 30px;
+}
