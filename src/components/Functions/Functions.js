@@ -79,7 +79,7 @@ export const get_user_albums = (user_id) => {
 }
 export const get_album_photos = (album_id) => {
     return axios
-        .get("https://fixlance.com/jsonplaceholder/photos?albumId=" + album_id + "")
+        .get("https://jsonplaceholder.typicode.com/photos?albumId=" + album_id + "")
         .then(response => {            
             return response.data
         })
